@@ -1,0 +1,150 @@
+@import "bourbon/bourbon"
+
+.container
+	width: 1170px !important
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: "opensansregular", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	color: #000
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+a
+	&:focus
+		outline: none
+
+.hidden
+	display: none
+
+.clearpad
+	padding: 0
+
+.logo_wrap
+	padding: 15px 0
+
+.contact
+	float: right
+	font-family: Arial
+	line-height: 18px
+	font-size: 20px
+	position: relative
+	padding: 8px 0
+	&::before
+		content: ''
+		background-image: url(../img/icon_tel.png)
+		height: 17px
+		width: 14px
+		position: absolute
+		left: -25px
+		top: 11px
+	span
+		font-size: 28px
+		font-weight: 700
+
+.cantact_wr
+	padding: 24px 0
+	
+.top_button
+	float: right
+	margin-left: 27px
+	a
+		background-color: black
+		background-image: linear-gradient(to top, #02488e 0%, #7a4321 0%, #b74600 50%, #7a4321 99%, #7a4321 100%)
+		border-radius: 4px
+		box-shadow: 0 2px 0 black
+		color: #fff
+		font-size: 16px
+		padding: 6px 30px
+		text-decoration: none
+		transition: all .3s ease
+		&:hover
+			background-image: linear-gradient(to top, #02488e 0%, #7a4321 0%, #ea6919  50%, #7a4321 99%, #7a4321 100%)
+
+.menu
+	float: right
+	margin-top: 3px
+	ul
+		list-style-type: none
+		li
+			display: inline-block
+			float: left
+			&:first-child
+				a
+					&::before
+						background-image: none
+			a
+				display: block
+				padding: 12px 23px
+				color: white
+				font-family: Arial
+				background-color: #024c6d
+				position: relative
+				text-decoration: none
+				transition: all .3s ease
+				&::before
+					content: ''
+					background-image: url(../img/ic_menu.png)
+					width: 6px
+					height: 6px
+					position: absolute
+					left: -3px
+					top: 20px
+				&:hover
+					background-color: #0a5d83
+
+
+.home_sect
+	background-image: url(../img/bg_sect1.jpg)
+	min-height: 647px
+	background-size: cover
+	background-position: center
+	background-repeat: no-repeat
+
+.title_wrap
+	text-align: center
+	margin-top: 43px
+	h1
+		color: white
+		font-size: 31px
+		line-height: 39px
+
+
+				
+				
+
