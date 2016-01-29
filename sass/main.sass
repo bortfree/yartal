@@ -40,10 +40,10 @@ body
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
-	color: red
+	color: #969696
 body input:required:valid,
 body textarea:required:valid
-	color: green
+	color: #969696
 
 a
 	&:focus
@@ -131,10 +131,11 @@ a
 
 .home_sect
 	background-image: url(../img/bg_sect1.jpg)
-	min-height: 647px
+	min-height: 648px
 	background-size: cover
 	background-position: center
 	background-repeat: no-repeat
+	text-align: center
 
 .title_wrap
 	text-align: center
@@ -143,6 +144,86 @@ a
 		color: white
 		font-size: 31px
 		line-height: 39px
+		border-bottom: 1px dashed #fff
+		padding-bottom: 55px
+
+.subtitle_wrap
+	display: inline-block
+	h3
+		color: white
+		font-size: 23px
+		text-transform: uppercase
+		font-weight: 400
+		background-color: #0d3e54
+		margin-top: 15px
+		box-shadow: 0 0 0 8px rgba(13, 62, 84, .42)
+		padding: 3px 15px
+
+.item
+	width: 180px
+	display: inline-block
+	color: #fff
+	position: relative
+	margin-left: 55px
+	&:first-child
+		margin-left: 0
+	&:last-child
+		&::before
+			border-bottom: none
+	p
+		margin-top: 5px
+	&::before
+		content: ''
+		width: 75px
+		position: absolute
+		border-bottom: 1px dashed #fff
+		top: 62px
+		right: -70px
+
+.form_home_sect
+	h3
+		color: white
+		line-height: 23px
+		font-size: 18px
+		text-transform: uppercase
+		font-weight: 700
+		margin-top: 30px
+		margin-bottom: 0
+	p
+		color: #fff
+		margin-top: 0
+
+form
+	input
+		border: none
+		border-radius: 5px
+		padding: 6px 10px
+		font-size: 12px
+		color: #969696
+		width: 190px
+		margin-right: 10px
+
+
+.button
+	background-color: black
+	background-image: linear-gradient(to top, #02488e 0%, #7a4321 0%, #b74600 50%, #7a4321 99%, #7a4321 100%)
+	border-radius: 4px
+	box-shadow: 0 2px 0 black
+	color: #fff
+	font-size: 14px
+	border: none
+	padding: 5px 12px
+	text-decoration: none
+	transition: all .3s ease
+	&:hover
+		background-image: linear-gradient(to top, #02488e 0%, #7a4321 0%, #ea6919  50%, #7a4321 99%, #7a4321 100%)
+
+
+		
+
+		
+
+
 
 
 				
