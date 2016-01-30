@@ -223,7 +223,8 @@ form input {
     position: relative;
     margin-top: 20px;
     margin-bottom: 50px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    text-transform: uppercase; }
     .sect_white .title_sect_wrap h2::before {
       content: "";
       position: absolute;
@@ -337,5 +338,173 @@ form input {
     .item_sect3_right .item_descr p {
       line-height: 18px;
       color: #fff; }
+
+.section4 {
+  margin-bottom: 40px; }
+  .section4 .title_sect_wrap h2 {
+    margin-bottom: 20px;
+    padding-top: 25px; }
+  .section4 .title_sect_wrap p {
+    font-size: 18px;
+    width: 590px;
+    display: inline-block;
+    margin-top: 0; }
+  .section4 .top_button {
+    display: inline-block;
+    float: none;
+    margin-left: 0;
+    margin-top: 40px; }
+    .section4 .top_button a {
+      padding: 16px 30px;
+      font-family: "opensanssemibold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+
+.section5 {
+  background-image: url(../img/bg_sect5.jpg);
+  min-height: 512px; }
+  .section5 .title_sect_wrap {
+    margin-bottom: 56px; }
+  .section5 .row {
+    margin-bottom: 14px; }
+  .section5 .stroka {
+    margin-top: 11px; }
+  .section5 .strokaIV {
+    margin-left: 40px; }
+  .section5 .strokaIII {
+    margin-right: 40px; }
+  .section5 .srokaVI .number {
+    position: relative;
+    top: -12px; }
+  .section5 .item_sect3_left {
+    text-align: right; }
+    .section5 .item_sect3_left .number {
+      margin-left: 15px;
+      margin-right: 0;
+      font-size: 30px;
+      vertical-align: middle;
+      height: 100%; }
+    .section5 .item_sect3_left .item_descr {
+      text-align: left;
+      width: 267px; }
+      .section5 .item_sect3_left .item_descr p {
+        font-size: 16px; }
+    .section5 .item_sect3_left::before {
+      display: none; }
+  .section5 .item_sect3_right {
+    text-align: left;
+    margin-top: 0; }
+    .section5 .item_sect3_right .number {
+      margin-right: 15px;
+      margin-left: 0;
+      font-size: 30px; }
+    .section5 .item_sect3_right .item_descr {
+      text-align: right;
+      width: 267px; }
+      .section5 .item_sect3_right .item_descr p {
+        font-size: 16px; }
+    .section5 .item_sect3_right::before {
+      display: none; }
+
+.section6 {
+  margin-bottom: 50px; }
+  .section6 .title_sect_wrap {
+    margin-top: 50px; }
+    .section6 .title_sect_wrap h2 {
+      margin-bottom: 85px; }
+  .section6 .row {
+    margin-bottom: 40px; }
+  .section6 .item_first {
+    text-align: left;
+    display: inline-block;
+    margin-left: -50px;
+    position: relative; }
+    .section6 .item_first::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/map_sect6_1.jpg);
+      width: 50px;
+      height: 58px;
+      top: -60px;
+      left: 6px; }
+    .section6 .item_first::after {
+      content: "";
+      position: absolute;
+      background-image: url(../img/map_sect6_2.jpg);
+      width: 122px;
+      height: 90px;
+      bottom: -65px;
+      right: 119px; }
+    .section6 .item_first h3 {
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 23px; }
+    .section6 .item_first .img_wrap {
+      display: inline-block;
+      position: relative;
+      top: -26px;
+      margin-right: 5px; }
+    .section6 .item_first .descr_wrap {
+      width: 180px;
+      display: inline-block; }
+  .section6 .wr_bef::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/map_sect6_4.jpg);
+    width: 48px;
+    height: 109px;
+    bottom: -82px;
+    left: 54px; }
+  .section6 .item1_sect6 {
+    text-align: left;
+    display: inline-block;
+    margin-left: -74px;
+    margin-top: -9px; }
+    .section6 .item1_sect6 h4 {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0; }
+    .section6 .item1_sect6 .img_wrap {
+      display: inline-block;
+      position: relative;
+      top: -26px;
+      margin-right: 5px; }
+    .section6 .item1_sect6 .descr_wrap {
+      width: 250px;
+      display: inline-block; }
+      .section6 .item1_sect6 .descr_wrap p {
+        margin-top: 0;
+        line-height: 18px; }
+  .section6 .item_wr {
+    margin-left: 32px; }
+    .section6 .item_wr::before {
+      content: "";
+      position: absolute;
+      background-image: url(../img/map_sect6_3.jpg);
+      width: 88px;
+      height: 121px;
+      top: -108px;
+      left: 82px; }
+    .section6 .item_wr .item1_sect6 .descr_wrap {
+      width: 150px; }
+  .section6 .item_wr_last::before {
+    content: "";
+    position: absolute;
+    background-image: url(../img/map_sect6_5.jpg);
+    width: 99px;
+    height: 46px;
+    bottom: -23px;
+    left: 80px; }
+  .section6 .item_wr_last .item1_sect6 .descr_wrap {
+    width: 180px; }
+  .section6 .top_button {
+    display: inline-block;
+    float: none;
+    margin-left: 0;
+    margin-top: 50px; }
+    .section6 .top_button a {
+      padding: 16px 50px;
+      font-family: "opensanssemibold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+      font-weight: 600; }
 
 /*# sourceMappingURL=main.css.map */
