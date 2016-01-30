@@ -1,5 +1,26 @@
 $(function() {
 
+	$(".popup").magnificPopup();
+
+	$(".menu ul li a").mPageScroll2id();
+
+	// Set options
+	 var options = {
+	 	offset: '#showHere',
+	 	offsetSide: 'top',
+	 	classes: {
+	 		clone:   'banner--clone',
+	 		stick:   'banner--stick',
+	 		unstick: 'banner--unstick'
+	 	}
+	 };
+
+        // Initialise with options
+        var banner = new Headhesive('.banner', options);
+
+        // Headhesive destroy
+        // banner.destroy();
+
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {

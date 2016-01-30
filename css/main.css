@@ -726,4 +726,39 @@ footer {
     text-decoration: none;
     margin-left: 14px; }
 
+.banner--clone {
+  width: 100%;
+  background-color: #fff; }
+  .banner--clone img {
+    width: 200px; }
+  .banner--clone .cantact_wr {
+    padding: 0; }
+  .banner--clone .top_button {
+    display: none; }
+  .banner--clone .contact {
+    display: none; }
+
+#form1, #form2, #form3 {
+  margin: auto;
+  position: relative;
+  width: 396px;
+  background-color: #0d3e54;
+  border: 1px solid white;
+  text-align: center; }
+  #form1 h3, #form2 h3, #form3 h3 {
+    color: white;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase; }
+  #form1 input, #form1 .button, #form2 input, #form2 .button, #form3 input, #form3 .button {
+    width: 309px;
+    margin-right: 0; }
+  #form1 .button, #form2 .button, #form3 .button {
+    margin-bottom: 20px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
