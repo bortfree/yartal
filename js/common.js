@@ -1,5 +1,7 @@
 $(function() {
 
+	$("#phone, #phone2, #phone3, #phone4, #phone5").mask("+7 (999) 999-9999");
+
 	$(".popup").magnificPopup();
 
 	$(".menu ul li a").mPageScroll2id();

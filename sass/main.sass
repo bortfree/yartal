@@ -165,11 +165,12 @@ a
 		padding: 3px 15px
 
 .item
-	width: 180px
+	width: 194px
 	display: inline-block
 	color: #fff
 	position: relative
-	margin-left: 55px
+	margin-left: 36px
+	vertical-align: top
 	&:first-child
 		margin-left: 0
 	&:last-child
@@ -177,13 +178,14 @@ a
 			border-bottom: none
 	p
 		margin-top: 5px
+		line-height: 16px
 	&::before
 		content: ''
 		width: 75px
 		position: absolute
 		border-bottom: 1px dashed #fff
 		top: 62px
-		right: -70px
+		right: -59px
 
 .form_home_sect
 	h3
@@ -249,7 +251,7 @@ form
 
 .item_preim
 	text-align: left
-	padding-left: 47px
+	padding-left: 85px
 	.img_wrap
 		min-height: 59px
 		img
@@ -305,6 +307,8 @@ form
 .item_sect3_left
 	text-align: left
 	position: relative
+	border-bottom: 1px solid #012633
+	margin-right: 28px
 	&::before
 		content: ''
 		position: absolute
@@ -312,7 +316,7 @@ form
 		height: 32px
 		background-image: url(../img/icon_sect3.png)
 		top: 28px
-		right: -16px
+		right: -45px
 	.number
 		display: inline-block
 		color: white
@@ -329,6 +333,8 @@ form
 .item_sect3_right
 	text-align: right
 	position: relative
+	border-bottom: 1px solid #012633
+	margin-left: 28px
 	margin-top: 70px
 	&::before
 		content: ''
@@ -337,7 +343,7 @@ form
 		height: 32px
 		background-image: url(../img/icon_sect3.png)
 		top: 28px
-		left: -16px
+		left: -43px
 	.number
 		display: inline-block
 		color: white
@@ -524,8 +530,7 @@ form
 		margin-top: 50px
 		a
 			padding: 16px 50px
-			font-family: "opensanssemibold", $helvetica
-			font-weight: 600
+			
 
 
 .section7
@@ -611,7 +616,7 @@ form
 		box-shadow: 5.5px 12.9px 5px rgba(0, 0, 0, 0.44)
 		z-index: 30
 		top: 96px
-		left: 222px
+		left: 63px
 		&::after
 			content: ''
 			position: absolute
@@ -677,9 +682,9 @@ form
 			
 
 .form_wrapper
-	position: absolute
-	top: 30px
-	right: 221px
+	position: relative
+	top: 20px
+	right: 0
 	background-color: #0d3e54
 	border: 1px dashed white
 	text-align: center
@@ -704,7 +709,6 @@ form
 	button
 		width: 310px
 		margin-bottom: 20px
-		font-family: "opensansbold", $helvetica
 		text-transform: uppercase
 
 
@@ -746,6 +750,10 @@ footer
 	p
 		margin: 0
 		margin-top: -5px
+		span
+			color: #7fb9d3
+			font-size: 12px
+			font-weight: 400	
 	a
 		color: #7fb9d3
 		font-size: 12px
@@ -756,6 +764,7 @@ footer
 .banner--clone 
 	width: 100%
 	background-color: #fff
+	box-shadow: 5.5px 5px 5px rgba(0, 0, 0, 0.44)
 	img
 		width: 200px
 	.cantact_wr
@@ -788,3 +797,5 @@ footer
 .mfp-close-btn-in
 	.mfp-close
 		color: #fff
+
+

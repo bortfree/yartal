@@ -158,24 +158,26 @@ a:focus {
     padding: 3px 15px; }
 
 .item {
-  width: 180px;
+  width: 194px;
   display: inline-block;
   color: #fff;
   position: relative;
-  margin-left: 55px; }
+  margin-left: 36px;
+  vertical-align: top; }
   .item:first-child {
     margin-left: 0; }
   .item:last-child::before {
     border-bottom: none; }
   .item p {
-    margin-top: 5px; }
+    margin-top: 5px;
+    line-height: 16px; }
   .item::before {
     content: "";
     width: 75px;
     position: absolute;
     border-bottom: 1px dashed #fff;
     top: 62px;
-    right: -70px; }
+    right: -59px; }
 
 .form_home_sect h3 {
   color: white;
@@ -237,7 +239,7 @@ form input {
 
 .item_preim {
   text-align: left;
-  padding-left: 47px; }
+  padding-left: 85px; }
   .item_preim .img_wrap {
     min-height: 59px; }
     .item_preim .img_wrap img {
@@ -292,7 +294,9 @@ form input {
 
 .item_sect3_left {
   text-align: left;
-  position: relative; }
+  position: relative;
+  border-bottom: 1px solid #012633;
+  margin-right: 28px; }
   .item_sect3_left::before {
     content: "";
     position: absolute;
@@ -300,7 +304,7 @@ form input {
     height: 32px;
     background-image: url(../img/icon_sect3.png);
     top: 28px;
-    right: -16px; }
+    right: -45px; }
   .item_sect3_left .number {
     display: inline-block;
     color: white;
@@ -317,6 +321,8 @@ form input {
 .item_sect3_right {
   text-align: right;
   position: relative;
+  border-bottom: 1px solid #012633;
+  margin-left: 28px;
   margin-top: 70px; }
   .item_sect3_right::before {
     content: "";
@@ -325,7 +331,7 @@ form input {
     height: 32px;
     background-image: url(../img/icon_sect3.png);
     top: 28px;
-    left: -16px; }
+    left: -43px; }
   .item_sect3_right .number {
     display: inline-block;
     color: white;
@@ -503,9 +509,7 @@ form input {
     margin-left: 0;
     margin-top: 50px; }
     .section6 .top_button a {
-      padding: 16px 50px;
-      font-family: "opensanssemibold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-      font-weight: 600; }
+      padding: 16px 50px; }
 
 .section7 {
   background-image: url(../img/bg_sect7.jpg);
@@ -589,7 +593,7 @@ form input {
     box-shadow: 5.5px 12.9px 5px rgba(0, 0, 0, 0.44);
     z-index: 30;
     top: 96px;
-    left: 222px; }
+    left: 63px; }
     .maps_form .cantact_wrap::after {
       content: "";
       position: absolute;
@@ -654,9 +658,9 @@ form input {
         left: -30px; }
 
 .form_wrapper {
-  position: absolute;
-  top: 30px;
-  right: 221px;
+  position: relative;
+  top: 20px;
+  right: 0;
   background-color: #0d3e54;
   border: 1px dashed white;
   text-align: center; }
@@ -681,7 +685,6 @@ form input {
   .form_wrapper button {
     width: 310px;
     margin-bottom: 20px;
-    font-family: "opensansbold", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
     text-transform: uppercase; }
 
 footer {
@@ -719,6 +722,10 @@ footer {
   .copyr p {
     margin: 0;
     margin-top: -5px; }
+    .copyr p span {
+      color: #7fb9d3;
+      font-size: 12px;
+      font-weight: 400; }
   .copyr a {
     color: #7fb9d3;
     font-size: 12px;
@@ -728,7 +735,8 @@ footer {
 
 .banner--clone {
   width: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  box-shadow: 5.5px 5px 5px rgba(0, 0, 0, 0.44); }
   .banner--clone img {
     width: 200px; }
   .banner--clone .cantact_wr {
