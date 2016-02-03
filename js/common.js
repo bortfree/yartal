@@ -39,7 +39,12 @@ $(function() {
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
+			$.magnificPopup.open({
+					items: {
+						src: '.done'
+					},
+					type: 'inline'
+				});
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");

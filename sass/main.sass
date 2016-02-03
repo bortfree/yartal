@@ -38,12 +38,16 @@ body
 	-webkit-font-smoothing: antialiased
 	overflow-x: hidden
 
+
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
-	color: #969696
+	color: #000
 body input:required:valid,
 body textarea:required:valid
-	color: #969696
+	color: #000
+
+
 
 section
 	text-align: center
@@ -206,9 +210,11 @@ form
 		border-radius: 5px
 		padding: 6px 10px
 		font-size: 12px
-		color: #969696
+		color: #000
 		width: 190px
 		margin-right: 10px
+		&:required
+			color: #000
 
 
 .button
@@ -230,7 +236,7 @@ form
 	.title_sect_wrap
 		h2
 			color: black
-			font-family: "Open Sans"
+			font-family: "opensansbold", $helvetica
 			font-size: 30px
 			font-weight: 700
 			display: block
@@ -270,6 +276,17 @@ form
 .row_pbot
 	margin-bottom: 40px
 
+.row_mart
+	top: -20px
+	position: relative
+
+.row_mart_last
+	top: -30px
+	position: relative
+
+.item_sect3_right_last
+	margin-top: 60px !important
+
 .sect_color
 	padding-bottom: 30px
 	background-image: url(../img/bg_sect3.jpg)
@@ -282,7 +299,7 @@ form
 		margin-bottom: 50px
 		h2
 			color: #fff
-			font-family: "Open Sans"
+			font-family: "opensansbold", $helvetica
 			font-size: 30px
 			font-weight: 700
 			display: block
@@ -309,14 +326,6 @@ form
 	position: relative
 	border-bottom: 1px solid #012633
 	margin-right: 28px
-	&::before
-		content: ''
-		position: absolute
-		width: 32px
-		height: 32px
-		background-image: url(../img/icon_sect3.png)
-		top: 28px
-		right: -45px
 	.number
 		display: inline-block
 		color: white
@@ -330,20 +339,23 @@ form
 			line-height: 18px
 			color: #fff
 
+.line_ic
+	&::after
+		content: ''
+		position: absolute
+		width: 32px
+		height: 441px
+		background-image: url(../img/line_sect2.png)
+		background-repeat: no-repeat
+		top: -131px
+		right: -43px
+
 .item_sect3_right
 	text-align: right
 	position: relative
 	border-bottom: 1px solid #012633
 	margin-left: 28px
 	margin-top: 70px
-	&::before
-		content: ''
-		position: absolute
-		width: 32px
-		height: 32px
-		background-image: url(../img/icon_sect3.png)
-		top: 28px
-		left: -43px
 	.number
 		display: inline-block
 		color: white
@@ -705,7 +717,7 @@ form
 		border: none
 		padding: 6px 10px
 		font-size: 12px
-		color: #969696
+		color: #000
 	button
 		width: 310px
 		margin-bottom: 20px
@@ -774,7 +786,7 @@ footer
 	.contact
 		display: none
 	
-#form1, #form2, #form3
+#form1, #form2, #form3, .done
 	margin: auto
 	position: relative
 	width: 396px
@@ -797,5 +809,10 @@ footer
 .mfp-close-btn-in
 	.mfp-close
 		color: #fff
+		right: -10px
+		top: -10px
 
-
+.done
+	h3
+		line-height: 35px
+		margin-top: 20px
